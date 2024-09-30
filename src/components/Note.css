@@ -1,0 +1,89 @@
+.note {
+	width: 225px;
+	height: auto;
+	border: 2px solid #d8d7d5;
+	border-radius: 10px;
+
+	margin: 5px 0px;
+}
+
+.note__title {
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+
+	color: #000000;
+	margin: 15px;
+	margin-bottom: 0px;
+
+	background: transparent;
+	border: none;
+}
+
+.note__body {
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1rem;
+
+	color: #000000;
+	margin: 15px;
+	overflow-wrap: break-word;
+}
+
+.note__body--input {
+	width: calc(100% - 35px);
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 0.9rem;
+
+	line-height: 18px;
+	background: transparent;
+	border: 0;
+	overflow: hidden;
+	resize: none;
+
+	color: #000000;
+	margin: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	overflow-wrap: break-word;
+}
+
+.note__footer {
+	/* border-top: 1px solid #D8D7D5; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height:15px;
+}
+
+.note__date {
+	font-family: "Helvetica Neue";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 0.7rem;
+
+	opacity: 0.5;
+	color: #000000;
+	padding-left: 20px;
+}
+
+.note__icon__container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding-right: 20px;
+}
+
+.note__icon {
+	opacity: 0.5;
+}
+
+.note__icon:hover {
+	opacity: 0;
+}

@@ -1,0 +1,34 @@
+.header {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+
+  background: #FDFDFD;
+  border-bottom: 1px solid #D8D7D5;
+
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.new-note__button {
+  margin-left: 20px;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: #D8D7D5;
+  border: 1px solid #D8D7D5;
+  border-radius: 15px; 
+}
+
+.sort__button {
+  margin-left: 20px;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: #D8D7D5;
+  border: 1px solid #D8D7D5;
+  border-radius: 15px;   
+}

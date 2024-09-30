@@ -1,0 +1,42 @@
+.note-container--columns {
+  display: flex;
+  flex-direction: row;
+  padding: 10px
+}
+
+.note-container--rows {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 5px
+}
+
+.note-container--grid {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.note-container__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.note__icon__container {
+  height: 20px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.note__icon {
+  height: 15px;
+  width: 15px;
+  opacity: 0.5;
+}
+
+.note__icon:hover {
+  cursor: pointer;
+}
+
